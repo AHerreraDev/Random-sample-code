@@ -1,2 +1,2 @@
 # NodeJS
-NodeJS projects I have experience with
+NodeJS projects that I have worked on and I have experience with
