@@ -22,7 +22,7 @@ var app = express();
 
 
 //Connection to Mongo DB
-mongoose.connect("mongodb://alex:1212@ds135624.mlab.com:35624/acctodo", {useMongoClient:true});
+mongoose.connect("mongodb://username:password@ds135624.mlab.com:35624/acctodo", {useMongoClient:true});
 setUpPassport();
 
 //View engines
