@@ -1,5 +1,6 @@
 # Full Stack Developer <br>
 ## Codewars: https://www.codewars.com/users/alejandrossh <br>
+## Twitter: http://www.twitter.com/AustinDeveloper <br>
 ### Tools of choice: Webstorm and Atom <br>
 * HTML
 * CSS
