@@ -6,6 +6,9 @@ var array = ['4916-2600-1804-0530', '4779-252888-3972', '4252-278893-7978', '455
 var sum = 0;
 var totals = []; //Enty array that will hold total sum for each card
 
+
+function alex(){
+
 for (arrayPosition = 0; arrayPosition < array.length; arrayPosition++){
 
   for (i=0; i < array[arrayPosition].length; i++){
@@ -26,3 +29,4 @@ var topNumber = Math.max.apply(Math, totals);
 console.log('------');
 var index = totals.lastIndexOf(topNumber);
 console.log("Highest count is: " + topNumber + " and the credit card number is: " + array[index]);
+}
