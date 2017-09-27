@@ -1,0 +1,20 @@
+<html>
+    <body>
+        <head>
+            <title>Yelp API by Alex Sanchez</title>
+        </head>
+            <h1>Options near you for "{{businessName}}":</h1>
+            <hr>
+            <ul>
+                {{#each result}}
+                    <li>{{this}}
+                        {{#if rating}}
+                            <img src="img/small_4.png"></li>
+                        {{/if}}
+
+
+
+                {{/each}}
+            </ul>
+    </body>
+</html>

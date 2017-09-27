@@ -1,0 +1,18 @@
+{
+  "name": "yelp",
+  "version": "1.0.0",
+  "description": "Yelp API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "yelp-fusion": "^1.0.3",
+    "yelpv3": "^1.2.1"
+  }
+}
