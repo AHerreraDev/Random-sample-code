@@ -2,7 +2,7 @@
 ## Codewars: https://www.codewars.com/users/alejandrossh <br>
 ## Twitter: http://www.twitter.com/AustinDeveloper <br><br>
 ### Tools of choice: Webstorm and Atom.
-### Technologies I work with: <br>
+### Technologies I have experience with: <br>
 * HTML
 * CSS
 * Bootstrap: Responsive (media query) oriented
@@ -15,3 +15,8 @@
 * React - learning
 * APIs (create - learning)
 * ChatBOTS using API.AI
+* Wordpress CSM
+
+
+### Responsive websites online that I have created:
+* www.texaswaterproof.com
