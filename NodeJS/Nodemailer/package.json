@@ -1,0 +1,23 @@
+{
+  "name": "nodemailer",
+  "version": "1.0.0",
+  "description": "Simple nodemailer app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "debug": "*",
+    "express": "*",
+    "morgan": "*",
+    "pug": "*",
+    "nodemailer": "*"
+  },
+  "keywords": [
+    "nodemailer"
+  ],
+  "author": "Alex Herrera",
+  "license": "ISC"
+}
