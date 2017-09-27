@@ -18,5 +18,5 @@
 * Wordpress CSM
 
 
-### Responsive websites online that I have created:
+### Responsive live websites that I have created:
 * www.texaswaterproof.com
