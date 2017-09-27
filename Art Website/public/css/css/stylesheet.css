@@ -1,0 +1,397 @@
+/* Default font family: Roboto */
+/* Paragraphs color #6D9DC5 */
+/* Heading color #119DA4 */
+/* Buttons and other links color #3066BE */
+
+
+/*Height has to be 100% as html and body are the main parents. This is for the main image on the home page to be full*/
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", serif;
+}
+
+p {
+    color: #6D9DC5;
+    font-size: 16px;
+    font-weight:300;
+}
+
+h3 {
+    color: #41464b;
+    text-transform: uppercase;
+}
+
+h4 {
+    color:white;
+}
+
+/*Parallax effect class for generic use */
+
+.bg-parallax {
+    background-repeat: no-repeat;
+    background-size: cover; /*This will allow the image to be as big as possible*/
+    background-position: center;
+    background-attachment: fixed; /* this option is for parallax effect */
+}
+
+.bg-parallax2 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; /*This will allow the image to be as big as possible*/
+    background-attachment: fixed; /* this option is for parallax effect */
+}
+
+/*Since home is the parent of #home-cover we need it at 100% height too*/
+#home {
+  height: 100%;
+}
+
+/*main image in home page */
+#home-cover {
+  height: 100%;
+  background-image: url("../img/rhondak-native-florida-folk-artist-83553.jpg");
+
+}
+
+#home-content-box {
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+
+/*This box aligns the text on top of the main home image */
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#home-heading h3 {
+     color: #FFF;
+     font-size: 55px;
+     font-weight: 700;
+     margin: 20px 0px 20px 0px;
+     text-transform: uppercase;
+}
+
+#home-heading h4 {
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 10px 0px 20px 600px;
+    text-transform: uppercase;
+}
+
+/***********************************************************/
+/* Buttons General */
+/***********************************************************/
+
+.btn-general {
+  border-width: 2px;
+  border-radius: 0;
+  padding: 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  background: transparent;
+}
+
+.btn-white {
+  border-color: #FFF;
+  color: #FFF;
+
+}
+
+.btn-white:hover, .btn-white:focus {
+  background-color: white;
+  color: #3066BE;
+
+}
+
+.btn-blue {
+    border-color: #3066BE;
+    color: #3066BE;
+
+}
+
+.btn-blue:hover, .btn-blue:focus {
+    background-color: #3066BE;
+    color: #FFFFFF;
+}
+
+/***********************************************************/
+/* Content Generic */
+/***********************************************************/
+
+.content-box {
+  padding:60px 0px 0;
+}
+
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin:0 0 30px 0;
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color:#3066BE;
+  margin:0  auto 30px auto;
+}
+
+/***********************************************************/
+/* Services / ART section */
+/***********************************************************/
+
+.service-item {
+    padding:20px 0 20px 0;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.service-item-icon {
+    color: #3066BE;
+    float: left;
+    padding-top:7px;
+    margin-right: 25px;
+    width:55px;
+    height:55px;
+    text-align: center;
+}
+
+.service-item:hover .service-item-icon {
+    color: #fff;
+    background-color: #3066BE;
+}
+
+.service-item-title h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin:0 0 10px 0;
+    text-align: left;
+}
+
+.service-item-description p {
+    margin:0;
+    padding-left:85px;
+}
+
+/***********************************************************/
+/* About */
+/***********************************************************/
+
+#about-content-box{
+    float: left;
+    height:700px;
+}
+
+#about-content-box-outer {
+    width:100%;
+    height:100%; /*This will take the full height of parent div (about-content-box) */
+    display: table;
+}
+
+#about-content-box-inner {
+    display: table-cell;
+    vertical-align: middle;
+
+}
+
+#about .content-title h3 {
+    text-align: left;
+}
+
+#about .content-title-underline{
+    margin:0 0 30px 0;
+}
+
+#about-desc p {
+    margin-bottom:30px;
+}
+
+#about-bg-diagonal {
+    width:60%;
+    height:700px;
+    float: right;
+    border-left:200px solid #fff;
+    border-top:700px solid transparent;
+    background-image: url("../img/aboutArtist.jpg");
+}
+
+#about-bg-diagonal img {
+    margin-left: 300px;
+}
+
+/***********************************************************/
+/* Art Section */
+/***********************************************************/
+
+
+/*Select all the elements of class with attribute of col-*/
+/* Lets adjust images to full window with no spaces(gutters) */
+.row.no-gutters [class*=col-] {
+    padding-left:0;
+    padding-right:0;
+}
+
+.img-wrapper {
+    overflow: hidden;
+}
+
+.img-wrapper img {
+    transition: transform .5s ease;
+}
+
+.img-wrapper img:hover {
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+
+/***********************************************************/
+/* Contact Section */
+/***********************************************************/
+
+footer {
+    margin-top:60px;
+    background-color: #41464b;
+    padding-top:30px;
+    padding-bottom: 30px;
+    border-top:5px solid black;
+}
+
+#contact-left h3, #contact-right h3 {
+    color: white;
+    font-size:27px;
+    font-weight: 700;
+    font-family: 'Bad Script', cursive;
+    text-transform: none;
+}
+
+#contact-left p{
+    color: white;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url("../img/world-map.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+address {
+    color: white;
+}
+
+address strong,
+#phone-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding:8px 16px;
+    margin-bottom:20px;
+    color: white;
+}
+
+/***********************************************************/
+/* Footer and copyright section */
+/***********************************************************/
+
+#footer-bottom {
+    background-color: #41464b;
+    padding: 30px 0;
+    margin-top:60px;
+}
+
+#footer-copyright p {
+    margin: 0;
+    color: white;
+}
+
+#footer-menu {
+    float: left;
+    color: white;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#footer-menu ul {
+    list-style: none;
+    padding-left:0;
+    margin: 0;
+}
+
+#footer-menu ul li {
+    display: inline-block;
+}
+
+#footer-menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#footer-menu a:hover {
+    color: #3066BE;
+}
+
+
+/***********************************************************/
+/* Navigation Header*/
+/***********************************************************/
+
+.navbar {
+    padding:10px 0;
+
+}
+.top-nav {
+    background-color: rgba(0,0,0,0.7);
+}
+
+.navbar-header h3{
+    color: #FFF;
+    margin-top:10px;
+    font-family: 'Bad Script', cursive;
+    text-transform: none;
+}
+
+.nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+.navbar-nav > li > a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing:1px;
+    font-weight:700;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #3066BE;
+}
+
+.top-nav ul.navbar-nav > li.active > a {
+    color:#3066BE;
+    background: none;
+}
+
+
