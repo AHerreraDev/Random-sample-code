@@ -1,0 +1,110 @@
+/*CSS - Alejandro Sanchez*/
+/*08/21/17*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+#landing {
+	background: #000;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#message {
+	max-width: 900px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#message > h1 {
+	font-weight: bold;
+	color: white;
+    line-height: .4;
+}
+
+#sellText {
+	text-align: center;
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+#sellText h2 {
+	font-weight: bold;
+	color: black;
+}
+
+.parallax {
+    min-height: 650px;
+    background: transparent;
+}
+
+#nothingMatters {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding-top: 4em;
+}
+
+hr {
+    height: 30px;
+    border-style: solid;
+    border-color: #9982ba;
+    border-width: 4px 0 0 0;
+    border-radius: 20px;
+}
+
+hr:before { 
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: #9982ba;
+    border-width: 0 0 4px 0;
+    border-radius: 20px;
+}
+
+#icons {
+  padding-top: .2em;
+  text-align: center;
+  color: #3a3f5b;
+  font-size: 15em;
+}
+
+#icons p {
+  font-size: .09em;
+  color: black;
+  padding-top: 13em;
+  padding-bottom: 3em;
+}
+
+#faqs {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  padding-top: 4em;
+}
+
+#faqs h2 {
+  padding-bottom: 2em;
+}
+
+
+.service-item-title {
+text-align: center;
+}
