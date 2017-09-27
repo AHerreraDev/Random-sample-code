@@ -5,12 +5,13 @@
 ### Technologies I work with: <br>
 * HTML
 * CSS
-* Bootstrap: Responsive (media query) oriented 
+* Bootstrap: Responsive (media query) oriented
 * MongoDB
 * NodeJS
 * Express
-* Git & GitHub
+* Git & GitHub and the new GitHub Desktop
 * JavaScript
 * jQuery
 * React - learning
 * APIs (create - learning)
+* ChatBOTS using API.AI
