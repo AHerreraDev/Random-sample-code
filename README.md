@@ -20,3 +20,4 @@
 
 ### Responsive live websites that I have created:
 * www.texaswaterproof.com
+* Art Website - check the folder above in my repository.
