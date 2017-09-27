@@ -15,7 +15,7 @@
 * React - learning
 * APIs (create - learning)
 * ChatBOTS using API.AI
-* Wordpress CSM
+* Wordpress CMS
 
 
 ### Responsive live websites that I have created:
