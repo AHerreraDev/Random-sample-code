@@ -1,3 +1,4 @@
+// I help you learn! Code by Alex Herrera
 // In JavaScript a class is called a Constructor
 
 // Function Constructor
