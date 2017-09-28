@@ -49,4 +49,4 @@ var alex = new Family("Alex", 34, false);
 var julie = new Family("Julie", 27, true);
 
 //This will define lastname for all members of the Family to Sanchez
-Family.Prototype.lastname = 'Sanchez';
+Family.prototype.lastname = 'Sanchez';
