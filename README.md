@@ -16,6 +16,8 @@
 * APIs
 * ChatBOTS using API.AI
 * Wordpress CMS
+* Google Firebase
+* Swift 4 - iOS Development
 
 
 ### Responsive live websites that I have created:
