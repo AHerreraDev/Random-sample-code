@@ -12,12 +12,12 @@
 * Git & GitHub and the new GitHub Desktop
 * JavaScript
 * jQuery
-* React - learning
-* APIs (create - learning)
+* React JS
+* APIs
 * ChatBOTS using API.AI
 * Wordpress CMS
 
 
 ### Responsive live websites that I have created:
 * www.texaswaterproof.com
-* Art Website - check the folder above in my repository.
+* Art Website - check the folder above in my repository, personal information has been replaced with dummy text
