@@ -1,1 +1,1 @@
-# ReactJS simple APP fetching information from a JSON DB
+# ReactJS simple APP that fetchs information from a JSON DB
