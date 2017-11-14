@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 // components
 import Header from './header';
 
-const REQ_URL = `http://localhost:3004/artists`
+const REQ_URL = `http://localhost:3000/artists`
 
 class Artist extends Component {
 
@@ -34,6 +34,17 @@ class Artist extends Component {
         return(
             <div>
                 <Header />
+                <div className="artist_bio">
+                    <div className="avatar">
+                        <span style={{background: `url('./images/covers/${this.state.artist.cover}.jpg') no-repeat`}}></span>
+                    </div>
+                    <div className="bio">
+                        <h3>{this.state.artist.name}</h3>
+                        <div className="bio_text">
+                            {this.state.artist.bio}
+                        </div>
+                    </div>
+                </div>
             </div>
         )
     }

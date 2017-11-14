@@ -6,7 +6,7 @@ import Banner from '../components/banner';
 import Artistlists from './artistlist';
 
 
-const URL_ARTISTS = 'http://localhost:3004/artists';
+const URL_ARTISTS = 'http://localhost:3000/artists';
 
 
 class Home extends Component {
