@@ -62,3 +62,5 @@ typings/
 
 #WebStorm
 .idea/
+*.icloud
+React/artists-db/yarn.lock
