@@ -1,7 +1,7 @@
-# Full Stack Developer <br>
+# Web & iOS Developer <br>
 ## Codewars: https://www.codewars.com/users/alejandrossh <br>
 ## Twitter: http://www.twitter.com/AustinDeveloper <br>
-## My apps in the App Store: https://goo.gl/MoJny9 <br><br>
+## My apps in the App Store: https://goo.gl/fMht88 <br><br>
 
 ### Technologies I have experience with: <br>
 * HTML
