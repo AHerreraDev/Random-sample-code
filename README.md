@@ -10,7 +10,7 @@ Travel Map (in Spanish): https://goo.gl/fMht88 <br><br>
 * MongoDB
 * NodeJS
 * Express
-* Git & GitHub and the new GitHub Desktop
+* Git 
 * JavaScript
 * jQuery
 * React JS
