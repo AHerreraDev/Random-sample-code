@@ -1,6 +1,4 @@
 # Web & iOS Developer <br>
-## Codewars: https://www.codewars.com/users/alejandrossh <br>
-## Twitter: http://www.twitter.com/AustinDeveloper <br>
 ## My apps in the App Store:
 Salespot: https://goo.gl/22WiA5 <br>
 Travel Map (in Spanish): https://goo.gl/fMht88 <br><br>
