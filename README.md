@@ -13,12 +13,13 @@ Travel Map (in Spanish): https://goo.gl/fMht88 <br><br>
 * Git 
 * JavaScript
 * jQuery
-* React JS
+* React (Basic)
 * APIs
 * ChatBOTS using API.AI
 * Wordpress CMS
 * Google Firebase
 * Swift 4 - iOS Development
+* PHP (Basic)
 
 
 ### Responsive live websites that I have created:
