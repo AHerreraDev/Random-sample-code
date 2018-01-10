@@ -6,6 +6,7 @@ Travel Map (in Spanish): https://goo.gl/fMht88 <br><br>
 ### Technologies I have experience with: <br>
 * HTML
 * CSS
+* CSS Preprocessor SaSS (SCSS)
 * Bootstrap: Responsive (media query) oriented
 * MongoDB
 * NodeJS
